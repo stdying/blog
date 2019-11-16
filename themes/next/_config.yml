@@ -616,8 +616,8 @@ comments:
 
 # Disqus
 disqus:
-  enable: false
-  shortname:
+  enable: true
+  shortname: gitpage
   count: true
   lazyload: false
   #post_meta_order: 0
@@ -735,7 +735,7 @@ add_this_id:
 # ---------------------------------------------------------------
 
 # Baidu Analytics
-baidu_analytics: 5fae5627d63f5dcda32ec87e1da51fae
+baidu_analytics: ac58be2dfd6f4d6d44518d8149a39961
 
 # Growingio Analytics
 # Copyright 2015-2018 GrowingIO, Inc. More info available at https://www.growingio.com
