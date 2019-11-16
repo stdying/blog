@@ -674,7 +674,7 @@ livere_uid: # <your_uid>
 gitalk:
   enable: enable
   github_id: 1780854
-  repo: https://stdying.github.io/blog/
+  repo: stdying.github.io
   client_id: 928b56488772edb3b51c
   client_secret: 586672956da8a5566f7382d591c8005c8d90cf83
   admin_user: stdying
