@@ -62,7 +62,7 @@
 <meta property="og:site_name" content="stdying">
 <meta property="og:description" content="情景在APP中有三个Activity，分别为A、B和C，来回切换启动A、B、C，;在不销毁其他实例的情况，A、B、C保留一个实例。 对于这个问题，一般容易想到的是使用SingleTask模式，可是SingleTask有一个问题，会清空位于它栈上面其他实例。比如在一个栈存在A, B, C,三个实例，C启动A时，根据SingleTask模式，B,C会被清除掉；是否可以实现在不清除B，C的情况下，让A位">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-11-16T07:52:26.990Z">
+<meta property="og:updated_time" content="2019-11-16T08:30:38.903Z">
 <meta name="twitter:card" content="summary">
   <link rel="canonical" href="https://stdying.github.io/2019/11/07/Android-%E5%90%AF%E5%8A%A8%E4%BF%9D%E7%95%99%E4%B8%80%E4%B8%AAActivity/">
 
@@ -97,7 +97,7 @@
     var _hmt = _hmt || [];
     (function() {
       var hm = document.createElement("script");
-      hm.src = "https://hm.baidu.com/hm.js?5fae5627d63f5dcda32ec87e1da51fae";
+      hm.src = "https://hm.baidu.com/hm.js?ac58be2dfd6f4d6d44518d8149a39961";
       var s = document.getElementsByTagName("script")[0];
       s.parentNode.insertBefore(hm, s);
     })();
@@ -270,12 +270,28 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2019-11-16 07:52:26" itemprop="dateModified" datetime="2019-11-16T07:52:26+00:00">2019-11-16</time>
+                <time title="Modified: 2019-11-16 08:30:38" itemprop="dateModified" datetime="2019-11-16T08:30:38+00:00">2019-11-16</time>
               </span>
             
           
 
           
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="fa fa-comment-o"></i>
+      </span>
+        
+      
+      <span class="post-meta-item-text">Disqus: </span>
+    
+    <a title="disqus" href="/blog/2019/11/07/Android-%E5%90%AF%E5%8A%A8%E4%BF%9D%E7%95%99%E4%B8%80%E4%B8%AAActivity/#comments" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2019/11/07/Android-启动保留一个Activity/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
 
         </div>
       </header>
@@ -340,6 +356,15 @@
 
           </div>
           
+    
+    
+  <div class="comments" id="comments">
+    <div id="disqus_thread">
+      <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
+    </div>
+  </div>
+  
+  
 
         </div>
           
@@ -479,6 +504,39 @@
   
 
   
+
+<script>
+  function loadCount() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://gitpage.disqus.com/count.js';
+    s.id = 'dsq-count-scr';
+    (d.head || d.body).appendChild(s);
+  }
+  // defer loading until the whole page loading is completed
+  window.addEventListener('load', loadCount, false);
+</script>
+<script>
+  function disqus_config() {
+    this.page.url = "https://stdying.github.io/2019/11/07/Android-%E5%90%AF%E5%8A%A8%E4%BF%9D%E7%95%99%E4%B8%80%E4%B8%AAActivity/";
+    this.page.identifier = "2019/11/07/Android-启动保留一个Activity/";
+    this.page.title = 'Android 启动保留一个Activity';
+  }
+  function loadComments() {
+    if (window.DISQUS) {
+      DISQUS.reset({
+        reload: true,
+        config: disqus_config
+      });
+    } else {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://gitpage.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', '' + +new Date());
+      (d.head || d.body).appendChild(s);
+    }
+  }
+    window.addEventListener('load', loadComments, false);
+  
+</script>
 
 </body>
 </html>
