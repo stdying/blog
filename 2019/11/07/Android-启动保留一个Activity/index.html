@@ -62,7 +62,7 @@
 <meta property="og:site_name" content="stdying">
 <meta property="og:description" content="情景在APP中有三个Activity，分别为A、B和C，来回切换启动A、B、C，;在不销毁其他实例的情况，A、B、C保留一个实例。 对于这个问题，一般容易想到的是使用SingleTask模式，可是SingleTask有一个问题，会清空位于它栈上面其他实例。比如在一个栈存在A, B, C,三个实例，C启动A时，根据SingleTask模式，B,C会被清除掉；是否可以实现在不清除B，C的情况下，让A位">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-11-16T04:12:32.954Z">
+<meta property="og:updated_time" content="2019-11-16T07:52:26.990Z">
 <meta name="twitter:card" content="summary">
   <link rel="canonical" href="https://stdying.github.io/2019/11/07/Android-%E5%90%AF%E5%8A%A8%E4%BF%9D%E7%95%99%E4%B8%80%E4%B8%AAActivity/">
 
@@ -80,8 +80,28 @@
 
   <title>Android 启动保留一个Activity | stdying</title>
   
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-69248367-1"></script>
+    <script>
+      var host = window.location.hostname;
+      if (host !== "localhost" || !true) {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-69248367-1');
+      }
+    </script>
+  
 
 
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?5fae5627d63f5dcda32ec87e1da51fae";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
 
 
 
@@ -250,7 +270,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2019-11-16 04:12:32" itemprop="dateModified" datetime="2019-11-16T04:12:32+00:00">2019-11-16</time>
+                <time title="Modified: 2019-11-16 07:52:26" itemprop="dateModified" datetime="2019-11-16T07:52:26+00:00">2019-11-16</time>
               </span>
             
           
@@ -320,9 +340,6 @@
 
           </div>
           
-    
-    <div class="comments" id="gitalk-container"></div>
-  
 
         </div>
           
@@ -462,25 +479,6 @@
   
 
   
-
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
-
-<script>
-  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
-    var gitalk = new Gitalk({
-      clientID: '928b56488772edb3b51c',
-      clientSecret: '586672956da8a5566f7382d591c8005c8d90cf83',
-      repo: 'stdying.github.io',
-      owner: '1780854',
-      admin: ['stdying'],
-      id: '69fe1ba9ba022baf05498c955745ed93',
-        language: window.navigator.language || window.navigator.userLanguage,
-      
-      distractionFreeMode: 'true'
-    });
-    gitalk.render('gitalk-container');
-  }, window.Gitalk);
-</script>
 
 </body>
 </html>
